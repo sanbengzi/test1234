@@ -1,0 +1,21 @@
+[ 2017-05-31T15:59:41+08:00 ] 127.0.0.1 /index.php/Admin/index/verify.html
+ERR: 非法操作:verify
+
+[ 2017-05-31T15:59:47+08:00 ] 127.0.0.1 /index.php/Admin/index/verify.html
+ERR: 非法操作:verify
+
+[ 2017-05-31T16:00:00+08:00 ] 127.0.0.1 /index.php/Admin/index/verify.html
+ERR: 非法操作:verify
+
+[ 2017-05-31T16:00:01+08:00 ] 127.0.0.1 /index.php/Admin/index/verify.html
+ERR: 非法操作:verify
+
+[ 2017-05-31T16:00:02+08:00 ] 127.0.0.1 /index.php/Admin/index/verify.html
+ERR: 非法操作:verify
+
+[ 2017-05-31T16:56:03+08:00 ] 127.0.0.1 /index.php/Admin/index/verify.html
+ERR: 非法操作:verify
+
+[ 2017-05-31T17:22:17+08:00 ] 127.0.0.1 /index.php/Admin/login/dologin.html
+ERR: 非法操作:dologin
+

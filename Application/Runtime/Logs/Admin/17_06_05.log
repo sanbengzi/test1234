@@ -1,0 +1,256 @@
+[ 2017-06-05T00:04:16+08:00 ] 127.0.0.1 /index.php/Admin/Arraymenu_controller/Arraymenu_action.html
+ERR: 无法加载控制器:Arraymenu_controller
+
+[ 2017-06-05T09:03:16+08:00 ] 127.0.0.1 /index.php/Admin/system/accessList/id/1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `menu_id` FROM `tp_access` WHERE ( role_id= ) 
+
+[ 2017-06-05T11:22:04+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0152s ]
+
+[ 2017-06-05T11:30:48+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0157s ]
+
+[ 2017-06-05T11:31:08+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0155s ]
+
+[ 2017-06-05T11:31:10+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0156s ]
+
+[ 2017-06-05T11:31:43+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002517s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0069s ]
+
+[ 2017-06-05T11:31:53+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0092s ]
+
+[ 2017-06-05T11:31:57+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0152s ]
+
+[ 2017-06-05T11:32:05+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0153s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0159s ]
+
+[ 2017-06-05T11:38:05+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0163s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `tp_menu`  [ RunTime:0.0414s ]
+
+[ 2017-06-05T11:47:45+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `tp_menu`  [ RunTime:0.0010s ]
+
+[ 2017-06-05T11:51:10+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tp_menu`  [ RunTime:0.0005s ]
+
+[ 2017-06-05T11:52:32+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `tp_menu`  [ RunTime:0.0005s ]
+
+[ 2017-06-05T14:36:34+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001857s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `tp_menu`  [ RunTime:0.0006s ]
+SQL: DELETE FROM `tp_menu` WHERE `id` = 14 [ RunTime:0.0804s ]
+
+[ 2017-06-05T14:37:51+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `tp_menu`  [ RunTime:0.0007s ]
+SQL: DELETE FROM `tp_menu` WHERE `id` = 15 [ RunTime:0.0205s ]
+
+[ 2017-06-05T14:39:06+08:00 ] 127.0.0.1 /index.php/Admin/System/menuDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tp_menu`  [ RunTime:0.0014s ]
+SQL: DELETE FROM `tp_menu` WHERE `id` = 16 [ RunTime:0.0047s ]
+
+[ 2017-06-05T15:00:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001692s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='aawqw',`goods_number`='qwe',`goods_count`='0',`brand_id`='4',`goods_weight`='qwe',`goods_addtime`='2017-06-03 15:32:46',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='0.00',`goods_status`='0',`goods_sort`='0',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`='2017-06-03/59326d4a00103.jpg',`goods_smallpic`='2017-06-03/thump_59326d4a00103.jpg' WHERE `id` = 20 [ RunTime:0.0817s ]
+
+[ 2017-06-05T15:00:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='aawqw',`goods_number`='qwe',`goods_count`='0',`brand_id`='4',`goods_weight`='qwe',`goods_addtime`='2017-06-03 15:32:46',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='0.00',`goods_status`='1',`goods_sort`='0',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`='2017-06-03/59326d4a00103.jpg',`goods_smallpic`='2017-06-03/thump_59326d4a00103.jpg' WHERE `id` = 20 [ RunTime:0.0005s ]
+
+[ 2017-06-05T17:24:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/left
+ERR: 1066:Not unique table/alias: 'b'
+ [ SQL语句 ] : SELECT * FROM tp_access a left join tp_menu as b on a.menu_id=b.id left join tp_menu as b on a.menu_id=b.id  WHERE a.role_id = '1' AND b.is_show = 1 
+
+[ 2017-06-05T19:08:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/picDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `tp_pic` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0005s ]
+SQL: DELETE FROM `tp_pic` WHERE `id` = 18 [ RunTime:0.0117s ]
+
+[ 2017-06-05T20:40:43+08:00 ] 127.0.0.1 /index.php/Admin/System/roleDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2017-06-05T20:48:24+08:00 ] 127.0.0.1 /index.php/Admin/System/roleDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tp_role` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0465s ]
+ERR: Think\Controller:roleModel方法不存在！
+
+[ 2017-06-05T20:49:38+08:00 ] 127.0.0.1 /index.php/Admin/System/roleDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `tp_role` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+ERR: Think\Controller:roleModel方法不存在！
+
+[ 2017-06-05T20:52:00+08:00 ] 127.0.0.1 /index.php/Admin/System/roleDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0058s ]
+
+[ 2017-06-05T20:54:12+08:00 ] 127.0.0.1 /index.php/Admin/System/roleDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tp_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-06-05T20:54:16+08:00 ] 127.0.0.1 /index.php/Admin/System/roleDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001983s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0332s ]
+SQL: DELETE FROM `tp_role` WHERE `id` = 4 [ RunTime:0.2566s ]
+
+[ 2017-06-05T21:18:12+08:00 ] 127.0.0.1 /index.php/Admin/category/categoryList.html
+ERR: 无法加载控制器:Category
+
+[ 2017-06-05T21:18:39+08:00 ] 127.0.0.1 /index.php/Admin/category/categoryList.html
+ERR: 无法加载控制器:Category
+
+[ 2017-06-05T21:18:41+08:00 ] 127.0.0.1 /index.php/Admin/category/categoryList.html
+ERR: 无法加载控制器:Category
+
+[ 2017-06-05T21:18:42+08:00 ] 127.0.0.1 /index.php/Admin/category/categoryList.html
+ERR: 无法加载控制器:Category
+
+[ 2017-06-05T21:18:48+08:00 ] 127.0.0.1 /index.php/Admin/Cate/categoryAdd.html
+ERR: 非法操作:categoryAdd
+
+[ 2017-06-05T21:41:04+08:00 ] 127.0.0.1 /index.php/Admin/Cate/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0057s ]
+SQL: DELETE FROM `tp_cate` WHERE `id` = 9 [ RunTime:0.0173s ]
+
+[ 2017-06-05T22:55:03+08:00 ] 127.0.0.1 /index.php/Admin/attribute/attrList.html
+ERR: Think\Model:filed方法不存在！
+
+[ 2017-06-05T23:06:48+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/attrDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002104s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0064s ]
+SQL: DELETE FROM `tp_attribute` WHERE `id` = 3 [ RunTime:0.0397s ]
+

@@ -1,0 +1,22 @@
+[ 2017-07-03T11:23:13+08:00 ] 127.0.0.1 /Home/login/login.html
+ERR: 1146:Table 'bdm292406151_db.tp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_user`
+
+[ 2017-07-03T11:24:34+08:00 ] 127.0.0.1 /Home/login/sendCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-03T11:25:01+08:00 ] 127.0.0.1 /Home/login/sendCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+

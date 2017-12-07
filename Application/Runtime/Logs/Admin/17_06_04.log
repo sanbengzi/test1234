@@ -1,0 +1,23 @@
+[ 2017-06-04T19:37:04+08:00 ] 127.0.0.1 /index.php/Admin/System/menulist.html
+ERR: 非法操作:menulist
+
+[ 2017-06-04T19:58:57+08:00 ] 127.0.0.1 /index.php/Admin/System/roleAdd.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_role` (`role_name`) VALUES ('管理员')
+
+[ 2017-06-04T19:59:28+08:00 ] 127.0.0.1 /index.php/Admin/System/roleAdd.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_role` (`role_name`,`role_status`) VALUES ('业务员','1')
+
+[ 2017-06-04T20:51:30+08:00 ] 127.0.0.1 /index.php/Admin/System/role_list.html
+ERR: 非法操作:role_list
+
+[ 2017-06-04T20:51:49+08:00 ] 127.0.0.1 /index.php/Admin/System/role_list.html
+ERR: 非法操作:role_list
+
+[ 2017-06-04T22:30:20+08:00 ] 127.0.0.1 /index.php/Admin/System/access_edit.html
+ERR: 非法操作:access_edit
+
+[ 2017-06-04T22:30:35+08:00 ] 127.0.0.1 /index.php/Admin/System/access_edit.html
+ERR: 非法操作:access_edit
+

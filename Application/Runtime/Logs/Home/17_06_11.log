@@ -1,0 +1,7 @@
+[ 2017-06-11T20:18:49+08:00 ] 127.0.0.1 /index.php/Home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0539s ]
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = 'susu' AND `user_pwd` = '4297f44b13955235245b2497399d7a93' LIMIT 1   [ RunTime:0.0007s ]
+

@@ -1,0 +1,60 @@
+[ 2017-05-26T11:31:00+08:00 ] 127.0.0.1 /Public/Home/images/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T11:31:00+08:00 ] 127.0.0.1 /Public/Home/images/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T11:32:39+08:00 ] 127.0.0.1 /Public/Home/images/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000241s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001877s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T11:32:39+08:00 ] 127.0.0.1 /Public/Home/images/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T11:32:40+08:00 ] 127.0.0.1 /Public/Home/images/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002931s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T11:32:40+08:00 ] 127.0.0.1 /Public/Home/images/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002700s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T11:38:39+08:00 ] 127.0.0.1 /Public/Home/images/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003272s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T15:30:19+08:00 ] 127.0.0.1 /login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Login
+
+[ 2017-05-26T15:30:45+08:00 ] 127.0.0.1 /login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+ERR: 无法加载模块:Login
+
+[ 2017-05-26T15:53:47+08:00 ] 127.0.0.1 /ddd/adf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+ERR: 无法加载模块:Ddd
+

@@ -1,0 +1,1482 @@
+[ 2017-06-06T12:46:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005684s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0233s ]
+NOTIC: [8] Undefined index: goods_image E:\shop\Application\Admin\Controller\GoodsController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0240s ]
+SQL: INSERT INTO `tp_goods` (`id`) VALUES ('2') [ RunTime:0.0814s ]
+
+[ 2017-06-06T12:57:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0184s ]
+NOTIC: [8] Undefined index: goods_image E:\shop\Application\Admin\Controller\GoodsController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0198s ]
+SQL: INSERT INTO `tp_goods` (`id`) VALUES ('3') [ RunTime:0.0005s ]
+
+[ 2017-06-06T13:02:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsCate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003198s ]
+
+[ 2017-06-06T13:04:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsCate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_attribute` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2017-06-06T13:04:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsCate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_attribute` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2017-06-06T13:05:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsCate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004052s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001499s ]
+
+[ 2017-06-06T13:08:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T13:23:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T13:23:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T13:24:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T13:24:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T13:24:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T13:25:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T13:25:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T13:25:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T13:25:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002105s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T13:25:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=4 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T13:26:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T13:32:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T13:37:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T13:41:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0006s ]
+
+[ 2017-06-06T13:42:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002009s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0006s ]
+
+[ 2017-06-06T13:46:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T13:47:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T13:55:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T13:56:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002618s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0006s ]
+
+[ 2017-06-06T13:58:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002437s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T13:58:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T13:59:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T14:06:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T14:07:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T14:09:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T14:10:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T14:21:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T14:24:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T14:56:38+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandList.html
+ERR: Think\Model:filed方法不存在！
+
+[ 2017-06-06T15:06:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0093s ]
+SQL: SELECT * FROM tp_access a left join tp_menu as b on a.menu_id=b.id  WHERE a.role_id = '3' AND b.pid <> 0  [ RunTime:0.0010s ]
+
+[ 2017-06-06T15:06:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0091s ]
+SQL: SELECT * FROM tp_access a left join tp_menu as b on a.menu_id=b.id  WHERE a.role_id = '3' AND b.pid <> 0  [ RunTime:0.0009s ]
+
+[ 2017-06-06T15:06:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0086s ]
+SQL: SELECT * FROM tp_access a left join tp_menu as b on a.menu_id=b.id  WHERE a.role_id = '3' AND b.pid <> 0  [ RunTime:0.0008s ]
+
+[ 2017-06-06T15:07:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0093s ]
+SQL: SELECT * FROM tp_access a left join tp_menu as b on a.menu_id=b.id  WHERE a.role_id = '3' AND b.pid <> 0  [ RunTime:0.0009s ]
+
+[ 2017-06-06T15:07:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0094s ]
+SQL: SELECT * FROM tp_access a left join tp_menu as b on a.menu_id=b.id  WHERE a.role_id = '3' AND b.pid <> 0  [ RunTime:0.0008s ]
+
+[ 2017-06-06T15:11:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+SQL: SHOW COLUMNS FROM `tp_access` [ RunTime:0.0086s ]
+SQL: SELECT * FROM tp_access a left join tp_menu as b on a.menu_id=b.id  WHERE a.role_id = '3' AND b.pid <> 0  [ RunTime:0.0008s ]
+
+[ 2017-06-06T15:16:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002206s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0006s ]
+
+[ 2017-06-06T15:16:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002541s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T15:16:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002869s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T15:16:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0009s ]
+
+[ 2017-06-06T15:16:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002584s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=4 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T15:19:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=4 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T15:19:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002451s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T15:32:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T15:32:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003802s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T15:34:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002618s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0204s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0211s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T15:34:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T15:34:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003179s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0271s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=4 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=4 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T15:34:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004952s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.1101s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=4 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=4 )  [ RunTime:0.0006s ]
+
+[ 2017-06-06T15:35:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005798s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0192s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T15:35:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0206s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T15:39:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002738s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0215s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0197s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T15:39:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002712s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T15:39:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0211s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0198s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0212s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T15:39:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003056s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0201s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T15:40:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002286s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0195s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T15:40:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002366s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0219s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T15:40:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0207s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0205s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T15:40:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0181s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T15:41:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002116s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0209s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T15:41:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002965s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T15:44:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T15:44:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003288s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0013s ]
+
+[ 2017-06-06T16:05:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T16:05:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0189s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T16:11:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0012s ]
+
+[ 2017-06-06T16:11:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=4 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=4 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T16:12:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T16:12:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003828s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=4 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=4 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T16:12:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=1 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T16:12:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003030s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T16:12:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=4 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=4 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T16:13:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T16:13:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=4 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=4 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T16:14:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T16:14:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002516s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=4 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=4 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T16:14:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002427s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=1 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T16:14:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T16:50:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T17:04:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='洗发水',`goods_number`='qwe',`goods_count`='0',`brand_id`='4',`goods_weight`='qwe',`goods_addtime`='2017-06-03 15:32:46',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='0.00',`goods_status`='0',`goods_sort`='0',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`='2017-06-03/59326d4a00103.jpg',`goods_smallpic`='2017-06-03/thump_59326d4a00103.jpg',`cate_id`=NULL WHERE `id` = 20 [ RunTime:0.0196s ]
+
+[ 2017-06-06T17:04:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='洗发水',`goods_number`='qwe',`goods_count`='0',`brand_id`='4',`goods_weight`='qwe',`goods_addtime`='2017-06-03 15:32:46',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='0.00',`goods_status`='1',`goods_sort`='0',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`='2017-06-03/59326d4a00103.jpg',`goods_smallpic`='2017-06-03/thump_59326d4a00103.jpg',`cate_id`=NULL WHERE `id` = 20 [ RunTime:0.0005s ]
+
+[ 2017-06-06T17:49:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsUpdate/id/31
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002467s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined index: goods_image E:\shop\Application\Admin\Controller\GoodsController.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0087s ]
+
+[ 2017-06-06T17:59:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0095s ]
+ERR: 非法操作:index
+
+[ 2017-06-06T18:01:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0132s ]
+
+[ 2017-06-06T18:05:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003081s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0244s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T18:13:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005278s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=31 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T18:24:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003479s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0382s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0289s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=31 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T18:25:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=31 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T18:26:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004658s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0277s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0202s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=31 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T18:27:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003197s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0257s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=31 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T18:29:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0429s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0274s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0258s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0305s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=31 )  [ RunTime:0.0009s ]
+
+[ 2017-06-06T18:33:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002809s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0277s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0204s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=31 )  [ RunTime:0.0006s ]
+
+[ 2017-06-06T21:46:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0161s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T21:46:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002996s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0162s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=4 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=4 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T21:46:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002535s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=1 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T21:46:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=2 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T21:46:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0152s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=5 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=5 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T21:46:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0161s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=6 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=6 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T21:46:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002600s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0161s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=7 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=7 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T21:46:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T21:46:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=31 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T21:47:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002125s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=31 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T21:48:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003463s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0161s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0222s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=31 )  [ RunTime:0.0006s ]
+
+[ 2017-06-06T21:49:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006304s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0163s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0207s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=31 )  [ RunTime:0.0003s ]
+
+[ 2017-06-06T21:51:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004403s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=31 )  [ RunTime:0.0003s ]
+
+[ 2017-06-06T21:53:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001983s ]
+
+[ 2017-06-06T21:54:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0153s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T21:56:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=31 )  [ RunTime:0.0008s ]
+
+[ 2017-06-06T21:59:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002614s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0163s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T22:02:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T22:12:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003851s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0192s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T22:13:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0152s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0003s ]
+
+[ 2017-06-06T22:14:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T22:16:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0003s ]
+
+[ 2017-06-06T22:18:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003659s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0003s ]
+
+[ 2017-06-06T22:18:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T22:19:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002938s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0007s ]
+
+[ 2017-06-06T22:19:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007303s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0006s ]
+
+[ 2017-06-06T22:26:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003301s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T22:27:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0003s ]
+
+[ 2017-06-06T22:28:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004783s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T22:33:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002111s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0003s ]
+
+[ 2017-06-06T22:34:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002425s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0007s ]
+
+[ 2017-06-06T22:35:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002804s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0003s ]
+
+[ 2017-06-06T22:36:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0003s ]
+
+[ 2017-06-06T22:37:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0003s ]
+
+[ 2017-06-06T22:38:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003418s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0003s ]
+
+[ 2017-06-06T22:38:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002090s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0003s ]
+
+[ 2017-06-06T22:45:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T22:49:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003160s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0003s ]
+
+[ 2017-06-06T22:49:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002742s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=4 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=4 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T22:49:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002896s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T22:49:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=1 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T22:49:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002286s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T22:49:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=4 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=4 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T22:57:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003044s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T22:57:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003415s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0005s ]
+
+[ 2017-06-06T23:00:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003600s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0004s ]
+
+[ 2017-06-06T23:04:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002703s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0003s ]
+
+[ 2017-06-06T23:06:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004947s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `tp_goodsattr` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( cate_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goodsattr` WHERE ( goods_id=32 )  [ RunTime:0.0004s ]
+

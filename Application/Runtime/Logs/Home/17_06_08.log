@@ -1,0 +1,188 @@
+[ 2017-06-08T00:04:30+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:04:30+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:04:30+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:04:30+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=css )
+
+[ 2017-06-08T00:04:30+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/css/style.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=css )
+
+[ 2017-06-08T00:04:30+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:04:31+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:06:25+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:06:26+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:06:26+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=css )
+
+[ 2017-06-08T00:06:26+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/css/style.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=css )
+
+[ 2017-06-08T00:06:26+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:06:26+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:06:26+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:07:13+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:07:13+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/css/style.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=css )
+
+[ 2017-06-08T00:07:13+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=css )
+
+[ 2017-06-08T00:07:13+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:07:13+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:07:13+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:09:00+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=css )
+
+[ 2017-06-08T00:09:01+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/css/style.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=css )
+
+[ 2017-06-08T00:09:01+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:09:01+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:09:01+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:09:43+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:09:43+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:09:43+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=css )
+
+[ 2017-06-08T00:09:43+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:09:45+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=css )
+
+[ 2017-06-08T00:09:45+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:09:45+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:09:45+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:09:45+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-08T00:14:24+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=css )
+
+[ 2017-06-08T00:29:24+08:00 ] 127.0.0.1 /index.php/Home/login/s
+ERR: 非法操作:s
+
+[ 2017-06-08T00:33:14+08:00 ] 127.0.0.1 /index.php/Home/login/s
+ERR: 非法操作:s
+
+[ 2017-06-08T00:34:23+08:00 ] 127.0.0.1 /index.php/Home/login/s
+ERR: 非法操作:s
+
+[ 2017-06-08T00:35:13+08:00 ] 127.0.0.1 /home/login/s
+ERR: 非法操作:s
+
+[ 2017-06-08T19:54:59+08:00 ] 127.0.0.1 /index.php/Home/login/user.html
+ERR: 非法操作:user
+
+[ 2017-06-08T20:05:34+08:00 ] 127.0.0.1 /index.php/Home/login/user.html
+ERR: 非法操作:user
+
+[ 2017-06-08T20:51:02+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/:U(%22cart/cartAdd%22)
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id= )
+
+[ 2017-06-08T21:42:47+08:00 ] 127.0.0.1 /index.php/Home/cart/css/style.css
+ERR: 非法操作:css
+
+[ 2017-06-08T21:42:47+08:00 ] 127.0.0.1 /index.php/Home/cart/images/flow.htm
+ERR: 非法操作:images
+
+[ 2017-06-08T21:43:27+08:00 ] 127.0.0.1 /index.php/Home/cart/css/style.css
+ERR: 非法操作:css
+
+[ 2017-06-08T22:17:40+08:00 ] 127.0.0.1 /index.php/Home/login/user.html
+ERR: 非法操作:user
+
+[ 2017-06-08T23:26:59+08:00 ] 127.0.0.1 /index.php/Home/Cart/cartDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0209s ]
+SQL: DELETE FROM `tp_cart` WHERE `id` = 3 [ RunTime:0.0153s ]
+
+[ 2017-06-08T23:27:52+08:00 ] 127.0.0.1 /index.php/Home/Cart/cartDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0157s ]
+SQL: DELETE FROM `tp_cart` WHERE `id` = 2 [ RunTime:0.0006s ]
+

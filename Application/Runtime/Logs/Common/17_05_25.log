@@ -1,0 +1,138 @@
+[ 2017-05-25T22:52:30+08:00 ] 127.0.0.1 /index.php/Public/Admin/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T22:52:30+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/header_left.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T22:52:30+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/admin_p.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T22:52:30+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/menu_icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T22:52:31+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/menu_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T22:52:31+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/menu_bt.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T22:52:31+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/header_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T22:52:31+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/header_right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T22:52:31+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/title_bg2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T22:52:31+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/title_bg1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T22:52:31+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/shadow_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T23:13:29+08:00 ] 127.0.0.1 /index.php/Public/Admin/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003998s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T23:13:29+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/header_right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T23:13:29+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/header_left.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T23:13:29+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/menu_icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001632s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T23:13:29+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/header_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001862s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T23:13:29+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/menu_bt.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002852s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T23:13:29+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/menu_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001488s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T23:13:29+08:00 ] 127.0.0.1 /index.php/Public/Admin/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T23:13:29+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/admin_p.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T23:13:29+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/shadow_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T23:13:29+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/title_bg1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001554s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-25T23:13:29+08:00 ] 127.0.0.1 /index.php/Public/Admin/img/title_bg2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+ERR: 无法加载模块:Public
+

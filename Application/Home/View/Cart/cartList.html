@@ -1,0 +1,166 @@
+<style type="text/css">
+    table {border:1px solid #dddddd; border-collapse: collapse; width:99%; margin:auto;}
+    td {border:1px solid #dddddd;}
+    #consignee_addr {width:450px;}
+</style>
+
+        <div class="block box">
+            <div class="blank"></div>
+            <div id="ur_here">
+                当前位置: <a href="#">首页</a> <code>&gt;</code> 购物流程 
+            </div>
+        </div>
+        <div class="blank"></div>
+
+        <div class="blank"></div>
+        <div class="block">
+            <div class="flowBox">
+                <h6><span>商品列表</span></h6>
+                <form id="formCart">
+                    <table cellpadding="5" cellspacing="1">
+                        <tbody><tr>
+                                <th>商品名称</th>
+                                <th>属性</th>
+                                <th>市场价</th>
+                                <th>本店价</th>
+                                <th>购买数量</th>
+                                <th>小计</th>
+                                <th>操作</th>
+                            </tr>
+                        <foreach name="cartData" item="d">
+                            <tr>
+                                <td align="center">
+                                    <a href="#" target="_blank"><img style="width: 80px; height: 80px;" src="__UPLOAD__{$d.goods_smallpic}" title="{$d.goods_name}" /></a><br />
+                                    <a href="#" target="_blank" class="f6">{$d.goods_name}</a>
+                                </td>
+                                <td>
+                                    <foreach name="d['goods_attr']" key="k" item="dd">
+                                    {$k}:{$dd} <br />
+                                    </foreach>
+                                </td>
+                                <td align="right">￥{$d.goods_mprice}元</td>
+                                <td align="right">￥<span class="cart_price">{$d.goods_price}</span>元</td>
+                                <td align="right">
+                                   <a href="javascript:void(0);" class="numDel" goods_id="{$d.goods_id}" style="text-decoration: none;"><strong>[ - ]</strong></a>&nbsp;<span class="cart_num" style="border: 1px solid #eee">{$d.number}</span>&nbsp;<a href="javascript:void(0);" class="numAdd" goods_id="{$d.goods_id}" style="text-decoration: none"><strong>[ + ]</strong></a>
+                                </td>
+                                <td align="right">￥<span class="cart_total"></span>元</td>
+                                <td align="center">
+                                    <a href="javascript:void(0);" class="cart_del" data_id="{$d.id}" goods_id="{$d.goods_id}">删除</a>
+                                </td>
+                            </tr>
+                        </foreach>
+                        </tbody></table>
+                    <table cellpadding="5" cellspacing="1">
+                        <tbody><tr>
+                                <td>
+                                    购物金额小计 ￥<span id="total"></span>元
+                                    <!--，比市场价 ￥2400.00元 节省了 ￥400.00元 (17%)              </td>-->
+                                <td align="right">
+                                    <input value="清空购物车" class="bnt_blue_1"  type="button" />
+                                    <input name="submit" class="bnt_blue_1" value="更新购物车" type="submit" />
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    <input name="step" value="update_cart" type="hidden" />
+                </form>
+                <table cellpadding="5" cellspacing="0" width="99%">
+                    <tbody><tr>
+                            <td><a href="#"><img src="__HOME__images/continue.gif" alt="continue" /></a></td>
+                            <td align="right"><a href="{:U('order/orderBuy')}"><img src="__HOME__images/checkout.gif" alt="checkout" /></a></td>
+                        </tr>
+                    </tbody></table>
+            </div>
+            <div class="blank"></div>
+            <div class="blank5"></div>
+        </div>
+<script type="text/javascript" src="__HOME__js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        //封装获取小计金额并添加到HTML页面中
+        function getTotal(_this) {
+            var price = _this.parents('tr').find('.cart_price').text();
+            var num = _this.parents('tr').find('.cart_num').text();
+            var total = price*num;
+            //将每个商品的小计 添加到HTML中 text
+            _this.parents('tr').find('.cart_total').text(total);
+        }
+        function totals() {
+            var totals = 0;
+            $('.cart_del').parents('tr').each(function () {
+                var num = $(this).find('.cart_total').text();
+                num = parseInt(num);
+                totals += num;
+            });
+            //将总数添加到金额小计中
+            $('#total').text(totals);
+        }
+
+        /**
+         * 页面初始化处理数据 商品小计和购物金额小计 计算
+         * **/
+        //获取每个商品循环遍历计算出 小计金额
+        $('.cart_del').each(
+            function () {
+                getTotal($(this));
+                totals();
+            }
+        );
+        /**
+         * 点击删除绑定点击事件
+         * **/
+        $('.cart_del').click(
+            function () {
+                //获取对应的cart  id
+                _this = $(this);
+                var id = _this.attr('data_id');         //获取购物车商品id 用户登录的时候直接根据id删除
+                var goods_id = _this.attr('goods_id');  //获取商品id，用户没有登录的时候 通过cookie中 goods_id删除
+//                alert(goods_id);
+                //将cart 的id，goods_id传递到cartDel中处理并放回值进行判断
+                if (confirm('确定删除？')) {
+                    $.post('__CONTROLLER__/cartDel',{id:id,goods_id:goods_id},function (data) {
+                            if (data.status == 1) {
+                                alert(data.info);
+                                _this.parents('tr').remove();
+                                totals();
+                            }
+                    },'json');
+                }
+            }
+        );
+        /**
+         * 增加商品数量绑定点击事件
+         * **/
+        $('.numAdd').click(function () {
+            var goods_id = $(this).attr('goods_id');  //用户没有登录的时候 通过cookie中 goods_id修改
+            //获取商品的数量
+            cart_num = $(this).parents('tr').find('.cart_num').text();
+            //自增加1
+            cart_num++;
+//            alert(cart_num);
+            //将获取的cart_num追加到HTML中
+            $(this).parents('tr').find('.cart_num').text(cart_num);
+            //计算添加金额小计
+            getTotal($(this));
+            totals();
+            //将数据post提交到PHP中处理
+            $.post('__CONTROLLER__/cartUpdate',{number:cart_num,goods_id:goods_id});
+        });
+        $('.numDel').click(function () {
+            var goods_id = $(this).attr('goods_id'); //用户没有登录的时候 通过cookie中 goods_id修改
+            //获取商品的数量
+            cart_num = $(this).parents('tr').find('.cart_num').text();
+            //判断数量必须大于1的时候才可以进行递减操作
+            if (cart_num > 1) {
+                cart_num--;
+
+                //将获取的cart_num追加到HTML中
+                $(this).parents('tr').find('.cart_num').text(cart_num);
+                //计算添加金额小计
+                getTotal($(this));
+                totals();
+                //将数据post提交到PHP中处理
+                $.post('__CONTROLLER__/cartUpdate',{number:cart_num,goods_id:goods_id});
+            }
+        });
+    });
+</script>

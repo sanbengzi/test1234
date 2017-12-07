@@ -1,0 +1,66 @@
+[ 2017-06-07T19:26:23+08:00 ] 127.0.0.1 /
+ERR: 模板不存在:./Application/Home/View/public.html
+
+[ 2017-06-07T22:22:40+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsList/price/$k
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goods_price< )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_goods` WHERE ( goods_status=1 and goods_price> and goods_price< ) 
+
+[ 2017-06-07T22:24:18+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsList/price/500-1000
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goods_price< )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_goods` WHERE ( goods_status=1 and goods_price> and goods_price< ) 
+
+[ 2017-06-07T22:25:57+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsList/price/5000-
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_goods` WHERE ( goods_status=1 and goods_price>5000 and goods_price< ) 
+
+[ 2017-06-07T22:32:52+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT tp_goods.*,tp_brand.brand_name FROM `tp_goods` left join tp_brand on tp_goods.brand_id=tp_brand.id  WHERE ( tp_goods.id= ) LIMIT 1  
+
+[ 2017-06-07T22:34:19+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT tp_goods.*,tp_brand.brand_name FROM `tp_goods` left join tp_brand on tp_goods.brand_id=tp_brand.id  WHERE ( tp_goods.id= ) LIMIT 1  
+
+[ 2017-06-07T22:34:21+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT tp_goods.*,tp_brand.brand_name FROM `tp_goods` left join tp_brand on tp_goods.brand_id=tp_brand.id  WHERE ( tp_goods.id= ) LIMIT 1  
+
+[ 2017-06-07T22:34:24+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT tp_goods.*,tp_brand.brand_name FROM `tp_goods` left join tp_brand on tp_goods.brand_id=tp_brand.id  WHERE ( tp_goods.id= ) LIMIT 1  
+
+[ 2017-06-07T22:51:40+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/20.html
+ERR: Think\Model:serInc方法不存在！
+
+[ 2017-06-07T23:10:02+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/20.html
+ERR: 1054:Unknown column 'a.goods_id' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_type FROM tp_goods a left join tp_attribute as b on a.attr_id=b.id  WHERE ( b.attr_type=1 and a.goods_id=20 ) 
+
+[ 2017-06-07T23:13:04+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/20.html
+ERR: 1054:Unknown column 'a.goods_id' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_type FROM tp_goods a left join tp_attribute as b on a.attr_id=b.id  WHERE ( b.attr_type=1 and a.goods_id=20 ) 
+
+[ 2017-06-07T23:13:13+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/5.html
+ERR: 1054:Unknown column 'a.goods_id' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_type FROM tp_goods a left join tp_attribute as b on a.attr_id=b.id  WHERE ( b.attr_type=1 and a.goods_id=5 ) 
+
+[ 2017-06-07T23:55:55+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=css )
+
+[ 2017-06-07T23:55:55+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-07T23:55:55+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+
+[ 2017-06-07T23:55:55+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/css/style.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=css )
+
+[ 2017-06-07T23:55:55+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDetail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : UPDATE `tp_goods` SET `goods_click`=goods_click+1 WHERE ( id=js )
+

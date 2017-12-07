@@ -1,0 +1,55 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>增加分类</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <link href="/Public/Admin/css/mine.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="div_head">
+            <span>
+                <span style="float:left">当前位置是：商品类型管理-》修改类型信息</span>
+                <span style="float:right;margin-right: 8px;font-weight: bold">
+                    <a style="text-decoration: none" href="<?php echo U('cateList');?>">【返回】</a>
+                </span>
+            </span>
+        </div>
+        <div></div>
+
+        <div style="font-size: 13px;margin: 10px 5px">
+            <form action="/index.php/Admin/cate/cateUpdate/id/8.html" method="post" >
+            <table border="1" width="100%" class="table_a">
+                <tr>
+                    <td>分类名称</td>
+                    <td><input type="text" name="cate_name" value="<?php echo ($data["cate_name"]); ?>" /></td>
+                </tr>
+                 <!--<tr>-->
+                    <!--<td>上级分类</td>-->
+                    <!--<td>-->
+                        <!--<select name="category_pid">-->
+                            <!--<option value='0' selected="selected">顶级分类</option>-->
+                           <!--<?php if(is_array($category)): foreach($category as $key=>$cate): ?>-->
+                               <!--<option value="<?php echo ($cate["id"]); ?>" ><?php echo (str_repeat('&nbsp;&nbsp;&nbsp;&nbsp;',$cate['level'])); echo ($cate["category_name"]); ?></option>-->
+                           <!--<?php endforeach; endif; ?>-->
+                        <!--</select>-->
+                    <!--</td>-->
+                <!--</tr>-->
+
+                <!--<tr>-->
+                    <!--<td>分类排序</td>-->
+                    <!--<td><input type="text" name="category_sort" /></td>-->
+                <!--</tr>-->
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input  type="hidden" name="id" value="<?php echo ($data["id"]); ?>"/>
+                        <input type="submit" value="提交修改">
+                    </td>
+                </tr>  
+            </table>
+            </form>
+        </div>
+    </body>
+</html>

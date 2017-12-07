@@ -1,0 +1,229 @@
+[ 2017-06-02T20:21:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAdd.html
+ERR: 不存在的图像文件
+
+[ 2017-06-02T20:21:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsAdd.html
+ERR: 不存在的图像文件
+
+[ 2017-06-02T21:58:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0284s ]
+
+[ 2017-06-02T22:18:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='儿童护手霜',`goods_number`='edx0090211022112',`goods_count`='232',`brand_id`='1',`goods_weight`='12',`goods_addtime`='1496325627',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='35.00',`goods_status`='0',`goods_sort`='211',`goods_description`='<h1><span style=\"color:#ff0000;background-color: rgb(149, 179, 215);\">皮皮狗护手霜</span></h1>',`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 7 [ RunTime:0.1985s ]
+
+[ 2017-06-02T22:20:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='梦龙梦龙',`goods_number`='edkx001290021',`goods_count`='32',`brand_id`='2',`goods_weight`='12',`goods_addtime`='1496322304',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='12.00',`goods_status`='0',`goods_sort`='12',`goods_description`='<p><span style=\"color:#e36c09;font-family:黑体, SimHei;font-size:24px\">这个是很好吃的哦</span></p>',`goods_updatetime`='1496330022',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 6 [ RunTime:0.0007s ]
+
+[ 2017-06-02T22:20:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002725s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='',`goods_number`='',`goods_count`='0',`brand_id`='0',`goods_weight`='',`goods_addtime`='1496402112',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='0.00',`goods_status`='1',`goods_sort`='0',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 8 [ RunTime:0.0045s ]
+
+[ 2017-06-02T22:21:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='苹果（APPLE）iPhone 4S',`goods_number`='0',`goods_count`='12',`brand_id`='3',`goods_weight`='0',`goods_addtime`='1496319163',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='123.00',`goods_status`='0',`goods_sort`='1',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 1 [ RunTime:0.0008s ]
+
+[ 2017-06-02T22:21:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='苹果（APPLE）iPhone 4S 16G版',`goods_number`='0',`goods_count`='443',`brand_id`='8',`goods_weight`='0',`goods_addtime`='1496319163',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='111223.00',`goods_status`='1',`goods_sort`='1',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 4 [ RunTime:0.0005s ]
+
+[ 2017-06-02T22:22:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='驱蚊花露水',`goods_number`='eck10092009201',`goods_count`='123',`brand_id`='3',`goods_weight`='109',`goods_addtime`='1496321746',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='16.00',`goods_status`='0',`goods_sort`='11',`goods_description`='好用的驱蚊花露水，谁用谁知道！！！！',`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 5 [ RunTime:0.0006s ]
+
+[ 2017-06-02T22:22:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='苹果（APPLE）iPhone 4S 16G版',`goods_number`='0',`goods_count`='443',`brand_id`='8',`goods_weight`='0',`goods_addtime`='1496319163',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='111223.00',`goods_status`='0',`goods_sort`='1',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 4 [ RunTime:0.0004s ]
+
+[ 2017-06-02T22:22:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='驱蚊花露水',`goods_number`='eck10092009201',`goods_count`='123',`brand_id`='3',`goods_weight`='109',`goods_addtime`='1496321746',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='16.00',`goods_status`='1',`goods_sort`='11',`goods_description`='好用的驱蚊花露水，谁用谁知道！！！！',`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 5 [ RunTime:0.0005s ]
+
+[ 2017-06-02T22:24:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='苹果（APPLE）iPhone 4S',`goods_number`='0',`goods_count`='12',`brand_id`='3',`goods_weight`='0',`goods_addtime`='1496319163',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='123.00',`goods_status`='1',`goods_sort`='1',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-06-02T22:26:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='苹果（APPLE）iPhone 4S',`goods_number`='0',`goods_count`='12',`brand_id`='3',`goods_weight`='0',`goods_addtime`='1496319163',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='123.00',`goods_status`='0',`goods_sort`='1',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-06-02T22:26:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='苹果（APPLE）iPhone 4',`goods_number`='0',`goods_count`='32',`brand_id`='6',`goods_weight`='0',`goods_addtime`='1496319163',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='2232.00',`goods_status`='0',`goods_sort`='1',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 2 [ RunTime:0.0006s ]
+
+[ 2017-06-02T22:26:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002002s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='苹果（APPLE）iPhone 4',`goods_number`='0',`goods_count`='32',`brand_id`='6',`goods_weight`='0',`goods_addtime`='1496319163',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='2232.00',`goods_status`='1',`goods_sort`='1',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 2 [ RunTime:0.0006s ]
+
+[ 2017-06-02T22:26:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='	苹果（APPLE）iPhone 4 8G版',`goods_number`='0',`goods_count`='34',`brand_id`='7',`goods_weight`='0',`goods_addtime`='1496319163',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='334.00',`goods_status`='0',`goods_sort`='1',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 3 [ RunTime:0.0007s ]
+
+[ 2017-06-02T22:26:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='苹果（APPLE）iPhone 4S 16G版',`goods_number`='0',`goods_count`='443',`brand_id`='8',`goods_weight`='0',`goods_addtime`='1496319163',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='111223.00',`goods_status`='1',`goods_sort`='1',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 4 [ RunTime:0.0006s ]
+
+[ 2017-06-02T22:26:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001867s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='驱蚊花露水',`goods_number`='eck10092009201',`goods_count`='123',`brand_id`='3',`goods_weight`='109',`goods_addtime`='1496321746',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='16.00',`goods_status`='0',`goods_sort`='11',`goods_description`='好用的驱蚊花露水，谁用谁知道！！！！',`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 5 [ RunTime:0.0007s ]
+
+[ 2017-06-02T22:29:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002019s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='',`goods_number`='',`goods_count`='0',`brand_id`='0',`goods_weight`='',`goods_addtime`='1496402365',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='0.00',`goods_status`='0',`goods_sort`='0',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 9 [ RunTime:0.0007s ]
+
+[ 2017-06-02T22:29:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='',`goods_number`='',`goods_count`='0',`brand_id`='0',`goods_weight`='',`goods_addtime`='1496402365',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='0.00',`goods_status`='1',`goods_sort`='0',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 9 [ RunTime:0.0006s ]
+
+[ 2017-06-02T22:29:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001864s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='',`goods_number`='',`goods_count`='0',`brand_id`='0',`goods_weight`='',`goods_addtime`='1496402112',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='0.00',`goods_status`='0',`goods_sort`='0',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 8 [ RunTime:0.0005s ]
+
+[ 2017-06-02T22:29:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='',`goods_number`='',`goods_count`='0',`brand_id`='0',`goods_weight`='',`goods_addtime`='1496402112',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='0.00',`goods_status`='1',`goods_sort`='0',`goods_description`=NULL,`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 8 [ RunTime:0.0005s ]
+
+[ 2017-06-02T22:29:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='梦龙梦龙',`goods_number`='edkx001290021',`goods_count`='32',`brand_id`='2',`goods_weight`='12',`goods_addtime`='1496322304',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='12.00',`goods_status`='1',`goods_sort`='12',`goods_description`='<p><span style=\"color:#e36c09;font-family:黑体, SimHei;font-size:24px\">这个是很好吃的哦</span></p>',`goods_updatetime`='1496330022',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 6 [ RunTime:0.0006s ]
+
+[ 2017-06-02T22:29:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='梦龙梦龙',`goods_number`='edkx001290021',`goods_count`='32',`brand_id`='2',`goods_weight`='12',`goods_addtime`='1496322304',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='12.00',`goods_status`='0',`goods_sort`='12',`goods_description`='<p><span style=\"color:#e36c09;font-family:黑体, SimHei;font-size:24px\">这个是很好吃的哦</span></p>',`goods_updatetime`='1496330022',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 6 [ RunTime:0.0006s ]
+
+[ 2017-06-02T22:29:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0999s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0057s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='儿童护手霜',`goods_number`='edx0090211022112',`goods_count`='232',`brand_id`='1',`goods_weight`='12',`goods_addtime`='1496325627',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='35.00',`goods_status`='1',`goods_sort`='211',`goods_description`='<h1><span style=\"color:#ff0000;background-color: rgb(149, 179, 215);\">皮皮狗护手霜</span></h1>',`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 7 [ RunTime:0.0008s ]
+
+[ 2017-06-02T22:29:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='儿童护手霜',`goods_number`='edx0090211022112',`goods_count`='232',`brand_id`='1',`goods_weight`='12',`goods_addtime`='1496325627',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='35.00',`goods_status`='0',`goods_sort`='211',`goods_description`='<h1><span style=\"color:#ff0000;background-color: rgb(149, 179, 215);\">皮皮狗护手霜</span></h1>',`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 7 [ RunTime:0.0006s ]
+
+[ 2017-06-02T22:29:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='儿童护手霜',`goods_number`='edx0090211022112',`goods_count`='232',`brand_id`='1',`goods_weight`='12',`goods_addtime`='1496325627',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='35.00',`goods_status`='1',`goods_sort`='211',`goods_description`='<h1><span style=\"color:#ff0000;background-color: rgb(149, 179, 215);\">皮皮狗护手霜</span></h1>',`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 7 [ RunTime:0.0005s ]
+
+[ 2017-06-02T22:29:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='儿童护手霜',`goods_number`='edx0090211022112',`goods_count`='232',`brand_id`='1',`goods_weight`='12',`goods_addtime`='1496325627',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='35.00',`goods_status`='0',`goods_sort`='211',`goods_description`='<h1><span style=\"color:#ff0000;background-color: rgb(149, 179, 215);\">皮皮狗护手霜</span></h1>',`goods_updatetime`='0',`goods_bigpic`=NULL,`goods_smallpic`=NULL WHERE `id` = 7 [ RunTime:0.0006s ]
+
+[ 2017-06-02T22:29:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='电动车啊',`goods_number`='eee1231321',`goods_count`='123',`brand_id`='5',`goods_weight`='21121',`goods_addtime`='1496406760',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='1223.00',`goods_status`='0',`goods_sort`='11',`goods_description`='',`goods_updatetime`='0',`goods_bigpic`='2017-06-02/59315ae8a8ca8.jpg',`goods_smallpic`='2017-06-02/thump_59315ae8a8ca8.jpg' WHERE `id` = 10 [ RunTime:0.0005s ]
+
+[ 2017-06-02T22:29:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tp_goods` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='电动车啊',`goods_number`='eee1231321',`goods_count`='123',`brand_id`='5',`goods_weight`='21121',`goods_addtime`='1496406760',`goods_click`='0',`goods_mprice`=NULL,`goods_price`='1223.00',`goods_status`='1',`goods_sort`='11',`goods_description`='',`goods_updatetime`='0',`goods_bigpic`='2017-06-02/59315ae8a8ca8.jpg',`goods_smallpic`='2017-06-02/thump_59315ae8a8ca8.jpg' WHERE `id` = 10 [ RunTime:0.0007s ]
+

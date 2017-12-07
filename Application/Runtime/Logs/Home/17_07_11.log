@@ -1,0 +1,8 @@
+[ 2017-07-11T14:34:33+08:00 ] 127.0.0.1 /Home/Goods/goodsDetail/id/20.html
+ERR: 1146:Table 'bdm292406151_db.tp_goods_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_goods_view`
+
+[ 2017-07-11T14:34:48+08:00 ] 127.0.0.1 /Home/Goods/goodsDetail/id/5.html
+ERR: 1146:Table 'bdm292406151_db.tp_goods_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_goods_view`
+
